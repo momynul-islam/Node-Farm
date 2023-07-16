@@ -1,0 +1,131 @@
+.product-detail {
+  margin: 4rem 0;
+}
+
+.product-card {
+  width: 30%;
+  margin: 0 auto;
+  background: #fff;
+  border: 2px solid #999;
+  position: relative;
+}
+
+.product-thumbnail {
+  position: relative;
+  height: 200px;
+  background: #a1e1a4;
+}
+
+.product-thumbnail p {
+  position: absolute;
+  font-size: 4rem;
+}
+
+.img-1 {
+  top: -50px;
+  left: 20px;
+}
+
+.img-2 {
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.img-3 {
+  top: -50px;
+  left: 350px;
+}
+
+.img-4 {
+  top: 40px;
+  left: 20px;
+}
+
+.img-5 {
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.img-6 {
+  top: 40px;
+  left: 350px;
+}
+
+.product-title {
+  margin: 0;
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(to bottom, #9be15d, #00e3ae);
+  text-transform: uppercase;
+}
+
+.product-details {
+  color: #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+.product-des {
+  color: #000;
+  text-align: justify;
+  padding: 1rem;
+}
+
+.btn-cart {
+  border: none;
+  cursor: pointer;
+  width: 110%;
+  height: 80px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin: 2rem 0;
+  margin-left: -5%;
+  transform: skew(-10deg);
+  background: #79e17b;
+  transition: all 0.3s;
+}
+
+.btn-cart:hover {
+  background-color: #9be15d;
+  transform: scale(1.1) skewX(-10deg);
+}
+
+.btn-back {
+  background-color: #fff;
+  padding: 4px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 9999px;
+  transition: all 0.3s;
+}
+
+.btn-back:hover {
+  background-color: #9be15d;
+}
+
+.organic-label {
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(to bottom, #9be15d, #00e3ae);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: bold;
+  position: absolute;
+  top: -80px;
+  right: -50px;
+  transform: rotate(30deg);
+}
